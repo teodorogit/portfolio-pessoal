@@ -1,0 +1,104 @@
+.container {
+    width: 130rem;
+    height: 75vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.image-container {
+    padding: 3rem;
+    max-width: 85%;
+    border-radius: 1em;
+}
+
+.container h2 {
+    font-size: 5em;
+}
+.portfolio-cards {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-cards img:hover, .portfolio-cards:active {
+    grid-template-columns: 1fr 1fr;
+    scale: 1.050;
+    transition: 400ms ease-in-out;
+}
+
+.projeto-estacionamento {
+ max-width: 130rem;
+ margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projeto-estacionamento img {
+    max-width: 60%;
+
+}
+
+.projeto-estacionamento h4 {
+    font-size: 4em;
+}
+
+.text-card {
+    padding:4rem 8rem;
+    max-width: 80%;
+    font-size: 2.3rem;
+    color: antiquewhite;
+}
+
+.btn-icon {
+    width: 2.4rem;
+    transform: translate(0px,15%);
+ 
+}
+.btn-projeto {
+    background-color: brown;
+    padding: 1.5rem;
+    max-width: 50%;
+    text-align: center;
+    transition: all 400 ease-in;
+}
+.btn-projeto:hover,.btn-projeto:active {
+    background-color: rgb(207, 51, 51);
+}
+
+.card-projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-class {
+    width: 24px;
+}
+
+.topicos {
+    display: grid;
+    grid-template-columns:  1fr;
+}
+
+.topicos p {
+    font-size: 2.5rem;
+    color: antiquewhite;
+    transition: all 500ms;
+}
+
+.topicos p:hover {
+    transform: scale(1.05);
+}
+
+.resumo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+.resumo-text h2 {
+    color: aliceblue;
+}
